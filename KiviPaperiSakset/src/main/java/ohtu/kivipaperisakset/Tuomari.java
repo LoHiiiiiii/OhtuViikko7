@@ -8,9 +8,13 @@ public class Tuomari {
     private int tasapelit;
 
     public Tuomari() {
-        this.ekanPisteet = 0;
-        this.tokanPisteet = 0;
-        this.tasapelit = 0;
+        Alusta();
+    }
+    
+    public final void Alusta(){
+        ekanPisteet = 0;
+        tokanPisteet =0;
+        tasapelit = 0;
     }
 
     public void kirjaaSiirto(String ekanSiirto, String tokanSiirto) {
@@ -44,7 +48,8 @@ public class Tuomari {
 
         return false;
     }
-
+    
+    @Override
     public String toString() {
         String s = "Pelitilanne: " + ekanPisteet + " - " + tokanPisteet + "\n"
                 + "Tasapelit: " + tasapelit;
