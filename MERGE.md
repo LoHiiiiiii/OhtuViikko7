@@ -1,0 +1,1 @@
+https://github.com/ohturyhma/ohtu-miniprojekti/commit/2f2d12d62fa0ccf2fe45c39613f135e3bea46dde
